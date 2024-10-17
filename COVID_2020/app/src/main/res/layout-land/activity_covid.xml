@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CovidActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:id="@+id/game_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/iconleft"></ImageButton>
+
+        <pt.isel.poo.G2LI21N.tile.TilePanel
+            android:id="@+id/tile_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            app:gridLine="0" />
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/stats_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <pt.isel.poo.G2LI21N.covid.view.FieldView
+                    android:id="@+id/level_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:label="@string/level" />
+
+                <pt.isel.poo.G2LI21N.covid.view.FieldView
+                    android:id="@+id/virus_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:label="@string/virus" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/saveGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save" />
+
+                <Button
+                    android:id="@+id/loadGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/load" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/restart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/restart" />
+
+                <Button
+                    android:id="@+id/winLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Win" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/iconright"></ImageButton>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <pt.isel.poo.G2LI21N.covid.view.MessageView
+        android:id="@+id/game_over_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:message="@string/level_lose"
+        app:button_msg="@string/restart"
+        android:visibility="gone" />
+
+    <pt.isel.poo.G2LI21N.covid.view.MessageView
+        android:id="@+id/win_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:message="@string/win_message"
+        app:button_msg="@string/next_level"
+        android:visibility="gone" />
+
+    <pt.isel.poo.G2LI21N.covid.view.MessageView
+        android:id="@+id/final_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:message="@string/final_msg"
+        app:button_msg="@string/main_menu"
+        android:visibility="gone" />
+
+</LinearLayout>

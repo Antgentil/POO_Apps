@@ -1,0 +1,65 @@
+ISEL: POO 19-20SV
+Levels description
+. - Space
+@ - Hero
+X - Wall
+* - Virus
+B - BlueVirus
+E - Enemy
+P - Platform
+V - Trash can
+
+#1 9 x 9
+.........
+PX....XX.
+.E.......
+........X
+..*......
+.XXXX.X..
+.........
+.*......@
+.XXXXVX.P
+
+#2 9 x 9
+......@..
+XX.XXXX..
+...*.....
+..XX..XX.
+..*....*.
+.XX..XX..
+......*..
+.........
+VXXVXXVXX
+
+#3 9 x 9
+.........
+..@BBBB..
+..XXXXB..
+.........
+.........
+.........
+.........
+.BBBB....
+XPXXXXVXX
+
+#4 9 x 9
+..@....B.
+.XX...XX.
+E...B.X..
+..XXX.E..
+.........
+.......X.
+.X.XX..B.
+......*..
+PXXVVVXVV
+
+#5 9 x 9
+..@...BB.
+..X......
+.........
+XE...X...
+........E
+.........
+.........
+....BB...
+XXXVXXXXX

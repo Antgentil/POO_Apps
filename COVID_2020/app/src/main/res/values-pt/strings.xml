@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level">Nível</string>
+    <string name="moves">Movimentos</string>
+    <string name="virus">Vírus</string>
+    <string name="levelsFileError">Ocorreu um erro ao carregar o ficheiro dos niveis</string>
+    <string name="win_message">Passaste este nível!</string>
+    <string name="next_level">Próximo Nível</string>
+    <string name="restart">RECOMECAR</string>
+    <string name="level_lose">Perdeste o nível.</string>
+    <string name="play">Jogar</string>
+    <string name="final_msg">Obrigado por jogares!</string>
+    <string name="main_menu">Menu Principal</string>
+    <string name="left">Esquerda</string>
+    <string name="right">Direita</string>
+    <string name="Win">Ganhar</string>
+    <string name="save">GRAVAR</string>
+    <string name="load">REPOR</string>
+</resources>

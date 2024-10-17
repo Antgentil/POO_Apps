@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">COVID</string>
+    <string name="level">Level</string>
+    <string name="moves">Moves</string>
+    <string name="virus">Virus</string>
+    <string name="levelsFileError">Error loading the levels file</string>
+    <string name="win_message">You won this level!</string>
+    <string name="next_level">Next Level</string>
+    <string name="restart">RESTART</string>
+    <string name="save">SAVE</string>
+    <string name="load">LOAD</string>
+    <string name="level_lose">Level lost!\nSorry :(</string>
+    <string name="play">Play Game</string>
+    <string name="final_msg">Thanks for playing!</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="Win">Win</string>/>
+</resources>

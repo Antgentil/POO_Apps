@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="TilePanel" >
+    <attr name="widthTiles" format="integer" />
+    <attr name="heightTiles" format="integer" />
+    <attr name="gridLine" format="integer" />
+    <attr name="backgroundTiles" format="color" />
+  </declare-styleable>
+  <declare-styleable name="FieldView">
+    <attr name="label" format="string"/>
+  </declare-styleable>
+  <declare-styleable name="MessageView">
+    <attr name="message" format="string"/>
+    <attr name="button_msg" format="string"/>
+  </declare-styleable>
+</resources>
