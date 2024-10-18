@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minas</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_Game">Novo?</string>
+    <string name="save">Gravar</string>
+    <string name="load">Repor</string>
+    <string name="bombs">Bombas:</string>
+    <string name="loseMsg">Perdeu</string>
+    <string name="winMsg">Ganhou</string>
+</resources>
